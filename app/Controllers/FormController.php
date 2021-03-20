@@ -10,7 +10,7 @@ class FormController extends Controller
         return view('contact_form');
     }
  
-    public function form() {
+    public function formValidation() {
         helper(['form', 'url']);
         
         $input = $this->validate([
