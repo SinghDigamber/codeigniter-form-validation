@@ -18,7 +18,7 @@
          
     <?php $validation = \Config\Services::validation(); ?>
 
-    <form method="post" action="<?php echo base_url('/submit-form') ?>">
+    <form action="<?php echo base_url(); ?>/FormController/store" method="post">
       <div class="form-group">
         <label>Name</label>
         <input type="text" name="name" class="form-control">
